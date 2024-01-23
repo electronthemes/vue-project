@@ -107,6 +107,7 @@
         </div>
         
     </div>
+    <div v-if="submited">
     <div class="max-w-[500px] mx-auto bg-white shadow-lg rounded-md border border-black border-opacity-5 mt-20 py-12 px-6">
         <h5 class="text-2xl font-medium mb-2">User Details</h5>
         <p class="text-xl font-medium">Name: {{ name }}</p>
@@ -121,6 +122,7 @@
                 <button v-for="skill in skills" :key="skill" class="py-[6px] px-3 rounded-md bg-black text-white leading-none capitalize text-[14px]">{{ skill }}</button>
             </div>
         </div>
+    </div>
     </div>
 </template>
 
