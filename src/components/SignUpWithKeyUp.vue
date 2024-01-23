@@ -1,5 +1,5 @@
 <template>
-    <div class="max-w-[500px] mx-auto bg-white shadow-lg rounded-md border border-black border-opacity-5 mt-20 py-12 px-6">
+    <div class="max-w-[500px] mx-auto bg-white shadow-lg rounded-md border border-black border-opacity-5 py-12 px-6">
         <form v-if="!submited" @submit.prevent="handelSubmit">
             <div>
                 <label class="block text-xl font-medium">Name</label>
